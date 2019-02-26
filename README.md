@@ -120,4 +120,11 @@ Remember to grab the address of the app in this point
 * heroku config:set DEBUG=True
 
 ### criar remote Heroku
-https://git.heroku.com/api-pontos-turisticos.git
+git remote add https://git.heroku.com/api-pontos-turisticos.git
+git commit -m 'Configuring the app'
+git remote add heroku1 https://git.heroku.com/api-pontos-turisticos.git
+git push heroku1 master --force
+heroku run python3 manage.py migrate --remote heroku1
+
+
+
