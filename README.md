@@ -120,4 +120,4 @@ Remember to grab the address of the app in this point
 * heroku config:set DEBUG=True
 
 ### criar remote Heroku
-
+https://git.heroku.com/api-pontos-turisticos.git
